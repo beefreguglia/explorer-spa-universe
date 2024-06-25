@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --white: #FFFFFF;
+  --gray-100: #E1E1E6;
+  --gray-200: #C4C4C4;
+}
