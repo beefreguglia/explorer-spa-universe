@@ -1,0 +1,38 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+
+  article {
+    max-width: 85rem;
+    padding: 18.5rem 10.2rem;
+
+    h1 {
+      font: var(--font-title);
+      color: var(--gray-100);
+    }
+    
+    p {
+      margin-top: 1.6rem;
+      font: var(--font-text);
+      color: var(--gray-200);
+    }
+  }
+
+}
+
+#universe {
+  background: url('../assets/images/mountains-universe02.png') lightgray 100% / cover no-repeat;
+}
+
+#exploration {
+  background: url('../assets/images/mountains-universe-3.png') lightgray 100% / cover no-repeat;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  background: url('../assets/images/mountains-universe-1.png') lightgray 100% / cover no-repeat;
+}
