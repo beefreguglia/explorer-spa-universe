@@ -1,0 +1,21 @@
+.outline-button {
+  display: inline flex;
+  padding: 1.2rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  font: var(--font-button);
+  border-radius: 5px;
+  gap: 8;
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--primary);
+  }
+}

@@ -12,16 +12,16 @@
   --white: #FFFFFF;
   --gray-100: #E1E1E6;
   --gray-200: #C4C4C4;
+  --primary: #02799D;
   --font-family: 'Roboto', sans-serif;
   --font-active-link: 700 2.4rem/90% var(--font-family);
   --font-link: 400 2.4rem/90% var(--font-family);
   --font-title: 400 4.8rem/125% var(--font-family);
-  --font-button: 400 1.4rem/170% var(--font-family);
+  --font-button: 700 1.4rem/170% var(--font-family);
   --font-text: 400 1.8rem/160% var(--font-family);
 }
 
 body {
   font: var(--font-text);
   color: var(--gray-100);
-  background: url('../assets/images/mountains-universe-1.png') lightgray 50% / cover no-repeat;
 }
