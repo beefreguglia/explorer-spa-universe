@@ -12,4 +12,10 @@
   --white: #FFFFFF;
   --gray-100: #E1E1E6;
   --gray-200: #C4C4C4;
+  --font-family: 'Roboto', sans-serif;
+  --font-active-link: 700 24/90% var(--font-family);
+  --font-link: 400 24/90% var(--font-family);
+  --font-title: 400 48/125% var(--font-family);
+  --font-button: 400 14/170% var(--font-family);
+  --font-text: 400 18/160% var(--font-family);
 }
